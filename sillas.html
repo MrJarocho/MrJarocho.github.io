@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styleTab.css">
+    <link rel="stylesheet" type="text/css" href="styleMob.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css"/>
+    <title>Sillas</title>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <a href="index.html" class="enlace">
+            <img src="INTEGRADORA (3).png" alt="" class="logo">
+            <img src="El texto del párrafo (1).png" alt="" class="logo">
+        </a>
+        <ul>
+            <li><a class="active" href="index.html">Inicio</a></li>
+            <li><a href="departamentos.html">Departamentos</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <header class="headersillas">
+        <h1>Sillas</h1>
+        <div class="container-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+            </svg>
+            <div class="count-products">
+                <span id="contador-productos">0</span>
+            </div>
+            <div class="container-cart-products hidden-cart">
+                <div class="cart-product">
+                    <div class="info-cart-product">
+                        <span class="cantidad-producto-carrito">1</span>
+                        <p class="titulo-producto-carrito">Silla 1</p>
+                        <span class="precio-producto-carrito">$2,456.00</span>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg> 
+                </div>
+                <div class="cart-total">
+                    <h3>Total:</h3>
+                    <span class="total-pagar">$2,456.00</span>
+                </div>
+            </div>                      
+        </div>
+    </header>
+    <div class="container-items">
+        <div class="item">
+            <figure>
+                    <img src="https://images.unsplash.com/photo-1541533260371-b8fc9b596d84?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Silla 1</h2>
+                <p class="price">$2,456.00</p>
+                <button class="botoncomprar">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                    <img src="https://images.unsplash.com/photo-1571055931484-22dce9d6c510?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Silla 2</h2>
+                <p class="price">$2,456.00</p>
+                <button class="botoncomprar">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                    <img src="https://images.unsplash.com/photo-1505797149-43b0069ec26b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Silla 3</h2>
+                <p class="price">$2,456.00</p>
+                <button class="botoncomprar">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                    <img src="https://images.unsplash.com/photo-1549637642-90187f64f420?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Silla 4</h2>
+                <p class="price">$2,456.00</p>
+                <button class="botoncomprar">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                    <img src="https://images.unsplash.com/photo-1628062699790-7c45262b82b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Silla 5</h2>
+                <p class="price">$2,456.00</p>
+                <button class="botoncomprar">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                    <img src="https://images.unsplash.com/photo-1594235048794-fae8583a5af5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Silla 6</h2>
+                <p class="price">$2,456.00</p>
+                <button class="botoncomprar">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                    <img src="https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Silla 7</h2>
+                <p class="price">$2,456.00</p>
+                <button class="botoncomprar">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                    <img src="https://images.unsplash.com/photo-1589779256250-a8743f78f4af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Silla 8</h2>
+                <p class="price">$2,456.00</p>
+                <button class="botoncomprar">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                    <img src="https://images.unsplash.com/photo-1622131815183-e7f8bbac9cd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1760&q=80" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Silla 9</h2>
+                <p class="price">$2,456.00</p>
+                <button class="botoncomprar">Añadir al carrito</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
