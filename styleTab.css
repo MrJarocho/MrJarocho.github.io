@@ -1,0 +1,10 @@
+/*Estilo para tablet*/
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+
+    nav ul li a{
+        font-size: 16px;
+    }
+}
